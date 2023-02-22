@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+  
+ <color name="darkblue">#587498</color>
+ <color name="lightblue">#ccccff</color>
+  <color name="blue">#006699</color>
+  <color name="red">#990000</color>
+  <color name="black">#000000</color>
+  <color name="grey">#e4e4e4</color>
+  <color name="pink">#fff0f7</color>   
+ 
+      
+    <drawable name="red_color">#ff0000</drawable>
+
+ <drawable name="white_color">#ffffff</drawable>
+
+ <drawable name="orange_color">#ffffbb33</drawable>
+</resources>

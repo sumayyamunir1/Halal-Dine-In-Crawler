@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <!-- Header aligned to top -->
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="500dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/header"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="70dip"
+            android:layout_toRightOf="@+id/textView1"
+            android:background="@drawable/login1"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/logoutbutton"
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="72dip"
+            android:layout_toRightOf="@+id/textView1"
+            android:background="@drawable/logout"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/reviews_home_button"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_marginLeft="250dp"
+            android:background="@drawable/home"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/loginbutton"
+            android:layout_alignBottom="@+id/loginbutton"
+            android:layout_alignParentLeft="true"
+            android:text="@string/writereviews"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <!-- Content below header and above footer -->
+
+    <EditText
+        android:id="@+id/et_writereviews_reviews"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dip"
+        android:background="@color/grey"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:gravity="top"
+        android:hint="@string/comment"
+        android:textSize="14sp" >
+    </EditText>
+
+    <Button
+        android:id="@+id/submitbutton"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/et_writereviews_reviews"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dip"
+        android:background="@drawable/submit"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/reviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submitbutton"
+        android:layout_marginLeft="12dip"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/reg"
+        android:text="@string/Reviews"
+        android:textColor="@color/red"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/reviews"
+        android:layout_marginLeft="12dip"
+        android:layout_marginRight="12dip"
+        android:layout_marginTop="5dp"
+        android:background="@color/red" />
+
+    <ListView
+        android:id="@+id/reviews_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/line"
+       android:divider="@android:color/transparent"
+       
+        android:dividerHeight="12dp"
+        android:layout_marginTop="270dip" >
+        
+        
+    </ListView>
+
+    <Button
+        android:id="@+id/clear3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignRight="@+id/et_writereviews_reviews"
+        android:layout_alignTop="@+id/et_writereviews_reviews"
+        android:layout_marginRight="3dp"
+         android:layout_marginTop="3dp"
+        android:background="@drawable/clear" />
+
+    <TextView
+        android:id="@+id/tv_username_reviews"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_above="@+id/clear3"
+        android:layout_alignLeft="@+id/et_writereviews_reviews"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</RelativeLayout>

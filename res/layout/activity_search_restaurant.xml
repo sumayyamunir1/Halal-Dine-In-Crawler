@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SearchrestaurantsActivity" >
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/logo"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <Button
+    
+        android:id="@+id/res_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/textbox" >
+    </Button>
+    
+
+    <Button
+        android:id="@+id/state_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/res_spinner"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/textbox" >
+    </Button>
+        
+
+    <TextView
+        android:id="@+id/option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/state_spinner"
+        android:layout_marginTop="8dp"
+        android:text="@string/option"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/go_search"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/state_spinner"
+        android:layout_marginTop="40dip"
+        android:background="@drawable/search"
+        
+        android:textColor="@android:color/white"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Halal Restaurants</string>
+    <string name="action_settings">Settings</string>
+    <string name="search">Search </string>
+    <string name="searchbyname">Search By Restaurant</string>
+    <string name="option">Select one Option </string>
+    <string name="maps">Map </string>
+    <string name="show_map">Show Map </string>
+    <string name="searchresults">Search Results </string>
+    <string name="Search">Search By Restaurant Name</string>
+    <string name="Search_by_state">Search By State</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="details">Details</string>
+    <string name="Loginn">Login</string>
+    <string name="Logout">Logout</string>
+    <string name="Username">Username</string>
+    <string name="Name">Your Name</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="reg"><u>Not a Registered User ? </u></string>
+    <string name="regg"><u><i><b>Sign Up</b></i></u></string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="signup">Sign Up</string>
+    <string name="info">WE ARE WAITING</string>
+    <string name="fillinfo">Please fill the information</string>
+    <string name="first">First</string>
+    <string name="last">Last</string>
+    <string name="Email">Email</string>
+    <string name="email">Your Email</string>
+    <string name="title_activity_region_restaurants">RegionRestaurantsActivity</string>
+    <string name="title_activity_reviews">ReviewsActivity</string>
+    <string name="Reviews">Recent Reviews</string>
+    <string name="writereviews">Write a Review</string>
+    <string name="name1">Nena:</string>
+    <string name="text1">Best place to eat halal</string>
+    <string name="name2">Hira:</string>
+    <string name="text2">Staff is very friendly</string>
+    <string name="text3">Write a Review</string>
+    <string name="comment">write a comment</string>
+    <string name="back">Back</string>
+    <string name="submit">Submit</string>
+    <string name="c"></string>
+    <string name="title_activity_searchrestaurants">SearchrestaurantsActivity</string>
+    <string name="searchby">Search by State</string>
+    <string name="Go">Go</string>
+    <string name="selectregion">Select a region within a United States</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="click">Click Button</string>
+    <string name="title_activity_search_restaurants">SearchRestaurantsActivity</string>
+    <string name="title_activity_search_restaurant">SearchRestaurant</string>
+    <string name="title_activity_utilities">Utilities</string>
+    <string name="title_activity_list_of__restaurants">List_of_Restaurants</string>
+    <string name="restaurants_list">Restaurants In DownTown</string>
+    <string name="no_of_restaurants">15 Restaurants in DownTowm New York</string>
+    <string name="kabobhouse">Kabob House</string>
+    <string name="sinbad">Sinbad</string>
+    <string name="sitar">Sitar Indian Cuisine</string>
+    <string name="quick_grill">Quick Grill</string>
+    <string name="title_activity_restaurant">Restaurant</string>
+    <string name="downtown">DownTown NewYork</string>
+    <string name="sitar_res">Sitar Indian Cuisine</string>
+    <string name="reviews">Reviews</string>
+    <string name="address">Address :</string>
+    <string name="avg_ratings">Ratings :</string>
+    <string name="Rate">Rate</string>
+    <string name="Review">Review</string>
+    <string name="city">City:</string>
+    <string name="state">State:</string>
+    <string name="postalCode">Postal Code:</string>
+    <string name="home">Home</string>
+    <string name="Back">Back</string>
+    <string name="phone">Phone #:</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="title_activity_google_maps">GoogleMapsActivity</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="spinner_prompt"></string>
+
+    <string-array name="spinner_entries">
+        <item>Sitar Indian Cuisine</item>
+        <item>Little Island Caf�</item>
+        <item>eat4less</item>
+        <item>Kabob House</item>
+        <item>Mobile Highway</item>
+    </string-array>
+
+    <string name="spinner_message_template">You selected
+21 </string>
+
+</resources>
